@@ -1,13 +1,64 @@
-<html>
-<head> <title> WEB DEVELOPMENT </title>
-<link rel="shortcut icon" href="packetprep.jpg"/>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB DEVELOPMENT</title>
+    <link rel="shortcut icon" href="packetprep.jpg">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #D76F30;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        fieldset {
+            border: 1;
+        }
+        .container {
+            text-align: center;
+            color: white;
+            animation: fadeIn 2s ease-in-out;
+        }
+        h1 {
+            font-size: 3.5em;
+            font-style: italic;
+            animation: slideIn 1s ease-out forwards;
+        }
+        h3 {
+            font-size: 1.5em;
+            margin-top: 10px;
+        }
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
 </head>
-<fieldset>
-<center>
-<body style="background-color:#D76F30;">
-<h1><i>PACKETPREP LAUNCHPAD</i> </h1>
-<h3>PacketPrep is a dynamic and innovative company specializing in the development and delivery of comprehensive study materials and resources for various professional certification exams.</h3>
-</center>
-</fieldset>
+<body>
+    <fieldset>
+        <div class="container">
+            <h1><i>PACKETPREP LAUNCHPAD</i></h1>
+            <h3>PacketPrep is a dynamic and innovative company specializing in the development.</h3>
+        </div>
+    </fieldset>
 </body>
 </html>
